@@ -95,3 +95,71 @@ background: #13171a;
         height: 564px;
   }
 }
+/* Magnetic Rules */
+@media only screen and (min-width: 1440px) {
+    .magnetic-img{
+        width: 500px;
+            height: 500px;
+    }
+}
+/* Chain Reactions */
+.chain-list{
+    padding-left: 30px;
+    list-style-type: disc;
+}
+/* Difficulty Curve */
+.difficulty-title{
+    margin-bottom: 16px;
+}
+.difficulty-text{
+font-size: 24px;
+    line-height: 1.3;
+}
+.difficulty-list{
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+.difficulty-item{
+    border: 1px solid #1e2428;
+        border-radius: 16px;
+        padding: 16px;
+        width: 343px;
+        height: auto;
+background: #13171a;
+display: flex;
+flex-direction: column;
+gap: 16px;
+}
+.difficulty-item-title{
+    font-weight: 600;
+        font-size: 18px;
+color: #afcfff;
+}
+.difficulty-item-list{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.difficulty-img{
+    margin-top: 32px;
+}
+@media only screen and (min-width: 1440px) {
+ .difficulty-text{
+    font-size: 28px;
+ }
+ .difficulty-list{
+    flex-direction: row;
+    gap: 32px;
+ }
+ .difficulty-item{
+    width: 352px;
+    height: 186px;
+ }
+ .difficulty-img{
+    width: 1120px;
+        height: 496px;
+ }
+}
