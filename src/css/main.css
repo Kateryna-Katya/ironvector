@@ -1,0 +1,30 @@
+.home-section{
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 812px;
+}
+.home-title{
+    margin-top: 30px;
+    font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 1.2;
+        color: #afcfff;
+        margin-bottom: 24px;
+}
+@media only screen and (min-width: 1440px) {
+  .home-section{
+    background-image: url("/img/home/desk.png");
+    height: 759px;
+  }
+  .home-title{
+    font-size: 72px;
+    margin-top: 70px;
+    margin-bottom: 34px;
+  }
+  .home-text{
+width: 640px;
+  }
+}
