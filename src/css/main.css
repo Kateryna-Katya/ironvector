@@ -49,3 +49,49 @@ gap: 20px;
     width: 544px;
 }
 }
+/* How It Works */
+.how-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+.how-item{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border: 1px solid #1e2428;
+        border-radius: 16px;
+        padding: 16px;
+        width: 343px;
+        height: auto;
+background: #13171a;
+}
+.how-item-title{
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #afcfff;
+}
+@media only screen and (min-width: 1440px) {
+  .how-list{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+    row-gap: 28px;
+    margin-bottom: 64px;
+  }
+  .how-item{
+    width: 352px;
+    min-height: 159px;
+  }
+  .how-item-title{
+    font-size: 20px;
+  }
+  .how-img{
+    width: 1120px;
+        height: 564px;
+  }
+}
